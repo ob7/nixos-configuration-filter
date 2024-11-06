@@ -31,3 +31,14 @@ This tool is ideal when you want to quickly view specific configuration options 
 ---
 
 This tool is particularly useful for NixOS users who need quick, targeted information from the man page without unnecessary details.
+
+### Global Usage
+
+The provided search-configuration-filter.nix can be imported into your configuration.nix and used to map the script to a unique command name for easy usage from any terminal.  Update the path to your local copy.  The example maps the command to "cs", allowing you to run the script from anywhere, such as 
+```bash
+cs virtualisation.virtualbox.host
+```
+or
+```bash
+cs -d virtualisation.virtualbox
+```
