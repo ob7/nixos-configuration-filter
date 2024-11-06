@@ -1,6 +1,6 @@
 # nixos-configuration-filter
 
-Filters the output of "man configuration" to whatever prefix is provided on the prompt
+Filters the output of "man configuration.nix" to whatever prefix is provided on the prompt
 
 This script filters the content of the `configuration.nix` man page to display only the sections matching a specified prefix. It’s designed to help you quickly find specific configuration options in the NixOS documentation without needing to scroll through unrelated sections.
 
